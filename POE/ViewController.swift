@@ -10,8 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelPOE: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        labelPOE.text=String(calculatePOE())
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -21,5 +23,11 @@ class ViewController: UIViewController {
     }
 
 
+    func calculatePOE()->Int{
+        let epocPOE = 3711800786.0
+        let POEpersecond = 2.5
+        let now = NSDate().timeIntervalSince1970
+        let POE = NSInteger(epocPOE + POEpersecond * Double(now))
+        return POE
+    }
 }
-
