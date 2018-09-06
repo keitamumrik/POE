@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelPOE: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //labelにテキストを表示する
         labelPOE.text=String(calculatePOE())
         // Do any additional setup after loading the view, typically from a nib.
     }
