@@ -24,8 +24,11 @@ class ViewController: UIViewController {
 
 
     func calculatePOE()->Int{
+        //1970/1/1時点の人口
         let epocPOE = 3711800786.0
+        //1秒間の出生率
         let POEpersecond = 2.5
+        //1970/1/1からの秒数を取得
         let now = NSDate().timeIntervalSince1970
         let POE = NSInteger(epocPOE + POEpersecond * Double(now))
         return POE
