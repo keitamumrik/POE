@@ -193,13 +193,16 @@
 				TargetAttributes = {
 					F9834802213F913B0095FC47 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					F9834816213F913D0095FC47 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = F9834802213F913B0095FC47;
 					};
 					F9834821213F913D0095FC47 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = F9834802213F913B0095FC47;
 					};
 				};
@@ -441,7 +444,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.keitamatsumura.POE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -461,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.keitamatsumura.POE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -481,7 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = keitamatsumura.POETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POE.app/POE";
 			};
@@ -502,7 +505,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = keitamatsumura.POETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POE.app/POE";
 			};
@@ -522,7 +525,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = keitamatsumura.POEUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = POE;
 			};
@@ -542,7 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = keitamatsumura.POEUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = POE;
 			};
